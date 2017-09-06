@@ -2,7 +2,9 @@
 This File Contains all important informations
 
 Version 1.0
+
 Lang: PHP
+
 Tested on : Windows
 
 
