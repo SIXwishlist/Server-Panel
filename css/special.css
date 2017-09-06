@@ -1,0 +1,14 @@
+a{
+	color: red;
+}
+
+a:hover{
+	color: #0404B4;
+	text-decoration: none;
+}
+
+#edit{
+	background-color: blue;
+	color:white;
+	border: white solid 2px;
+}
