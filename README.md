@@ -2,70 +2,41 @@
 This File Contains all important informations
 
 Version 1.0
-
 Lang: PHP
-
 Tested on : Windows
-
-
 
 ## Wanted Funktions:
 Network:
-
  DHCP konfiguration
- 
  DNS konfiguration
- 
  Zone konfiguration
- 
  IP konfiguration
 
-
 Gameserver:
-
  GameList:
   
-  
  Functions:
- 
   Terminal
-  
   Config
 
-
 Voiceserver:
-
  TeamSpeak 3
- 
  Mumble
- 
  (Ventrilo)
- 
 
 Cloud:
-
  NextCloud
 
-
 Webserver:
-
  Nginx
- 
   Configutrable for Multiple Users
   
-
 VPN:
-
  Tinc(Meshed)
- 
  (OpenVPN)
  
-
-
 ## Available Functions:
-
 Live Terminal
-
 Few Systeminformation
 
 
