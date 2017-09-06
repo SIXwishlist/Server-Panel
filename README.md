@@ -52,4 +52,3 @@ out which system data is available
 
 This data should be changable with simple PHP or Shell files.
 
-
