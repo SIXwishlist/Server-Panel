@@ -1,16 +1,21 @@
 # Server-Panel
 This File Contains all important informations
 
-Version 1.0
+Version: 0.01
 Lang: PHP
-Tested on : Windows
+Tested on : Windows X
 
 ## Wanted Funktions:
 Network:
  DHCP konfiguration
  DNS konfiguration
- Zone konfiguration
  IP konfiguration
+
+(DHCP-Server) <- better leave it to Firewall/Router?
+	
+
+DNS-Server:
+	Zone Configuration
 
 Gameserver:
  GameList:
@@ -29,11 +34,14 @@ Cloud:
 
 Webserver:
  Nginx
-  Configutrable for Multiple Users
+  Configurable for Multiple Users/(Sub-)Domains
   
+Certificate:
+	Let's Encrypt
+	
 VPN:
- Tinc(Meshed)
- (OpenVPN)
+ Tinc(Meshed) (LAN over Internet)
+ OpenVPN (Secure internet connection)
  
 ## Available Functions:
 Live Terminal
