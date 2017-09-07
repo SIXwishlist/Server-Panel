@@ -13,11 +13,14 @@ Network:
  IP konfiguration
 
 Gameserver:
+ (With Docker?)
  GameList:
   
  Functions:
   Terminal
   Config
+  Autoshutdown after X Minutes
+  Autostart wenn user wants to connect
 
 Voiceserver:
  TeamSpeak 3
