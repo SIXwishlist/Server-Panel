@@ -1,12 +1,12 @@
 # Server-Panel
-This File Contains all important informations
-
-Version: 0.01
-Lang: PHP, Shell, 
-Tested on : Windows X
-Done: 
-Now Developing: (d)
-In work: (x)
+	This File Contains all important informations
+	
+	Version: 0.01
+	Lang: PHP, Shell, 
+	Tested on : Windows X
+	Done: 
+	Now Developing: (d)
+	In work: (x)
 
 ## Wanted Functions:
 	Installer:
