@@ -6,6 +6,12 @@ Lang: PHP
 Tested on : Windows X
 
 ## Wanted Funktions:
+Installer:
+	As easy as possible
+
+General:
+	Security (Secure everything)
+
 Network:
  DHCP konfiguration
  DNS konfiguration
@@ -37,8 +43,9 @@ Cloud:
  NextCloud
 
 Webserver:
- Nginx
-  Configurable for Multiple Users/(Sub-)Domains
+	Nginx
+		Configurable for Multiple Users/(Sub-)Domains
+	PHP
   
 Certificate:
 	Let's Encrypt
