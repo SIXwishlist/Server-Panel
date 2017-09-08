@@ -9,26 +9,26 @@ Now Developing: (d)
 In work: (x)
 
 ## Wanted Functions:
-Installer:
-	As easy as possible
+	Installer:
+		As easy as possible
 
-General:
-	Security (Secure everything)
-	Modularity (Only use what you want, Modules dont need each other)
+	General:
+		Security (Secure everything)
+		Modularity (Only use what you want, Modules dont need each other)
 
-Network:
-	DHCP konfiguration
-	DNS konfiguration
-	IP konfiguration
-(d)	Show Used Ports and which Application it uses
+	Network:
+		DHCP konfiguration
+		DNS konfiguration
+		IP konfiguration
+		(d)	Show Used Ports and which Application it uses
 
-DHCP-Server Module:
+	DHCP-Server Modul:
 	
+	
+	DNS-Server Modul:
+		Zone Configuration
 
-DNS-Server Module:
-	Zone Configuration
-
-	Gameserver Module:
+	Gameserver Modul:
 		(With Docker?)
 		(With LGSM?)
 		GameList:
@@ -40,30 +40,30 @@ DNS-Server Module:
 			Autostart wenn user wants to connect
 			(S)FTP(S) for Mods
 
-Voiceserver Module:
-	TeamSpeak 3
-	Mumble
-	(Ventrilo)
+	Voiceserver Modul:
+		TeamSpeak 3
+		Mumble
+		(Ventrilo)
 
-Cloud:
-	NextCloud
+	Cloud:
+		NextCloud
 
-Webserver Module:
-	Nginx
-		Configurable for Multiple Users/(Sub-)Domains
-	PHP
-	FTPS or SFTP (Don't remember which of those was secure)
-  
-Certificate:
-	Let's Encrypt
-	
-VPN Module:
-	OpenVPN (Secure internet connection)
-	(Tinc(Meshed) (LAN over Internet)) <- Does a Server need that?/Do we want that a server has it?
- 
+	Webserver Modul:
+		Nginx
+			Configurable for Multiple Users/(Sub-)Domains
+		PHP
+		FTPS or SFTP (Don't remember which of those was secure)
+
+	Certificate:
+		Let's Encrypt
+
+	VPN Modul:
+		OpenVPN (Secure internet connection)
+		(Tinc(Meshed) (LAN over Internet)) <- Does a Server need that?/Do we want that a server has it?
+
 ## Available Functions:
-Live Terminal
-Few Systeminformation
+	Live Terminal
+	Few Systeminformation
 
 
 
