@@ -78,48 +78,65 @@
                 <strong>Betriebssystem </strong><br/>
                 <span>
                 <?php
-                  if(strstr($_SERVER['HTTP_USER_AGENT'], "NT 10.0")){
-                    $OS = "Windows 10";
-                  }
-                  elseif(strstr($_SERVER['HTTP_USER_AGENT'], "NT 6.1")){
-                    $OS = "Windows 7";
-                  }
-                  elseif(strstr($_SERVER['HTTP_USER_AGENT'], "NT 6.2")){
-                    $OS = "Windows 8";
-                  }
-                  elseif (strstr($_SERVER['HTTP_USER_AGENT'], "NT 5.1")) {
-                    $OS = "Windows XP";
-                  }
-                  elseif (strstr($_SERVER['HTTP_USER_AGENT'], "Ubuntu")) {
-                    $OS = "Ubuntu";
-                  }
-                  elseif (strstr($_SERVER['HTTP_USER_AGENT'], "FreeBSD")) {
-                    $OS = "FreeBSD";
-                  }
-                  elseif (strstr($_SERVER['HTTP_USER_AGENT'], "Debian")) {
-                    $OS = "Debian";
-                  }
-                  elseif(strstr($_SERVER['HTTP_USER_AGENT'], "Mac")){
-                    $OS = "Mac";
-                  }
-                  echo $OS;
-                ?>
+					//This shows the OS of the User connected to the Website!
+					
+                  // if(strstr($_SERVER['HTTP_USER_AGENT'], "NT 10.0")){
+                    // $OS = "Windows 10";
+                  // }
+                  // elseif(strstr($_SERVER['HTTP_USER_AGENT'], "NT 6.1")){
+                    // $OS = "Windows 7";
+                  // }
+                  // elseif(strstr($_SERVER['HTTP_USER_AGENT'], "NT 6.2")){
+                    // $OS = "Windows 8";
+                  // }
+                  // elseif (strstr($_SERVER['HTTP_USER_AGENT'], "NT 5.1")) {
+                    // $OS = "Windows XP";
+                  // }
+                  // elseif (strstr($_SERVER['HTTP_USER_AGENT'], "Ubuntu")) {
+                    // $OS = "Ubuntu";
+                  // }
+                  // elseif (strstr($_SERVER['HTTP_USER_AGENT'], "FreeBSD")) {
+                    // $OS = "FreeBSD";
+                  // }
+                  // elseif (strstr($_SERVER['HTTP_USER_AGENT'], "Debian")) {
+                    // $OS = "Debian";
+                  // }
+                  // elseif(strstr($_SERVER['HTTP_USER_AGENT'], "Mac")){
+                    // $OS = "Mac";
+                  // }
+                  // echo $OS;
+                // ?>
+				<?php
+					// We only need Linux and Windows
+					if(php_uname('s') == "Linux"){
+						$OS = "Linux";
+					}
+					if(strstr(php_uname('s') == "NT")){
+						$OS = "Windows";
+					}
+					else{
+						$OS = "undefined";
+					}
+				?>
                 </span>
                 
                 <br/><br/>
                 <strong>CPU</strong><br/>
                 <?php
-                 if(strstr($_SERVER['HTTP_USER_AGENT'], "Win")){
-                    echo(shell_exec('powershell.exe ./cpuinfo.ps1'));
-                  }
+					if($OS=="Windows"){
+						echo(shell_exec('powershell.exe ./cpuinfo.ps1'));
+					}
+					elseif($OS=="Linux"){
+						
+					}
                 ?>
                 <br/><br/>
 
                 <strong>RAM</strong><br/>
                 <?php
-                 if(strstr($_SERVER['HTTP_USER_AGENT'], "Win")){
-                    echo(shell_exec('powershell.exe ./raminfo.ps1'));
-                  }
+					if($OS=="Windows"){
+						echo(shell_exec('powershell.exe ./raminfo.ps1'));
+					}
                 ?>
                 <br/><br/>
               </div>

@@ -13,6 +13,7 @@
 		As easy as possible
 
 	General:
+		System healthieness (CPU,RAM,Disk,etc -info)
 		Security (Secure everything)
 		Modularity (Only use what you want, Modules dont need each other)
 
