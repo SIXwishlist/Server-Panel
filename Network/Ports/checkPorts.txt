@@ -1,2 +1,4 @@
-shell:
-netstat -tulpn
+<?php
+$output = shell_exec('netstat -tulpn');
+echo $output;
+?>
