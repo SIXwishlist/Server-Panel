@@ -28,17 +28,17 @@ DHCP-Server Module:
 DNS-Server Module:
 	Zone Configuration
 
-Gameserver Module:
-	(With Docker?)
-	(With LGSM?)
-	GameList:
-  
-	Functions:
-		Terminal
-		Config (in one .ini file)
-		Autoshutdown after X Minutes
-		Autostart wenn user wants to connect
-		(S)FTP(S) for Mods
+	Gameserver Module:
+		(With Docker?)
+		(With LGSM?)
+		GameList:
+		
+		Functions:
+			Terminal
+			Config (in one .ini file)
+			Autoshutdown after X Minutes
+			Autostart wenn user wants to connect
+			(S)FTP(S) for Mods
 
 Voiceserver Module:
 	TeamSpeak 3
