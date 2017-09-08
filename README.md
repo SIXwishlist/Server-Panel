@@ -4,6 +4,9 @@ This File Contains all important informations
 Version: 0.01
 Lang: PHP, Shell, 
 Tested on : Windows X
+Done: 
+Now Developing: (d)
+In work: (x)
 
 ## Wanted Functions:
 Installer:
@@ -14,18 +17,18 @@ General:
 	Modularity (Only use what you want, Modules dont need each other)
 
 Network:
- DHCP konfiguration
- DNS konfiguration
- IP konfiguration
- Show Used Ports and which Application it uses
+	DHCP konfiguration
+	DNS konfiguration
+	IP konfiguration
+(d)	Show Used Ports and which Application it uses
 
-(DHCP-Server) <- better leave it to Firewall/Router?
+DHCP-Server Module:
 	
 
-DNS-Server:
+DNS-Server Module:
 	Zone Configuration
 
-Gameserver:
+Gameserver Module:
 	(With Docker?)
 	(With LGSM?)
 	GameList:
@@ -35,8 +38,9 @@ Gameserver:
 		Config (in one .ini file)
 		Autoshutdown after X Minutes
 		Autostart wenn user wants to connect
+		(S)FTP(S) for Mods
 
-Voiceserver:
+Voiceserver Module:
 	TeamSpeak 3
 	Mumble
 	(Ventrilo)
@@ -44,7 +48,7 @@ Voiceserver:
 Cloud:
 	NextCloud
 
-Webserver:
+Webserver Module:
 	Nginx
 		Configurable for Multiple Users/(Sub-)Domains
 	PHP
@@ -53,7 +57,7 @@ Webserver:
 Certificate:
 	Let's Encrypt
 	
-VPN:
+VPN Module:
 	OpenVPN (Secure internet connection)
 	(Tinc(Meshed) (LAN over Internet)) <- Does a Server need that?/Do we want that a server has it?
  
