@@ -14,6 +14,15 @@
 
 	General:
 		System healthieness (CPU,RAM,Disk,etc -info)
+		CPU:
+			CPU Specs
+			Overall (Percent used)
+			Process
+		RAM:
+			Overall (Available/Used + Percent Used)
+			Process
+		Disk:
+			Space (Available/Used)
 		Security (Secure everything)
 		Modularity (Only use what you want, Modules dont need each other)
 
