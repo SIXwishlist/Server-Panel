@@ -10,6 +10,7 @@ Network:
  DHCP konfiguration
  DNS konfiguration
  IP konfiguration
+ Show Used Ports and which Application it uses
 
 (DHCP-Server) <- better leave it to Firewall/Router?
 	
