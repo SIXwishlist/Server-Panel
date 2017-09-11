@@ -4,9 +4,6 @@
 	Version: 0.01
 	Lang: PHP, Bash
 	Supported OS: Ubuntu
-
-## Warning
-	Deleting Windows support!
 	
 ## Wanted Functions:
 	Installer:
