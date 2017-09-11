@@ -2,12 +2,16 @@
 	This File Contains all important informations
 	
 	Version: 0.01
-	Lang: PHP, Shell, 
+	Lang: PHP, Bash
+	Supported OS: Ubuntu
 	Tested on : Windows X
 	Done: 
 	Now Developing: (d)
 	In work: (x)
 
+## Warning
+	Deleting Windows support!
+	
 ## Wanted Functions:
 	Installer:
 		As easy as possible
@@ -25,6 +29,10 @@
 			Space (Available/Used)
 		Security (Secure everything)
 		Modularity (Only use what you want, Modules dont need each other)
+		Auto-restart on unwanted shutdowns(errors, etc)
+		Services overview
+		Multilanguage (DE/EN)
+		Updater/Autoupdater
 
 	Network:
 		DHCP konfiguration
@@ -47,7 +55,7 @@
 			Terminal
 			Config (in one .ini file)
 			Autoshutdown after X Minutes
-			Autostart wenn user wants to connect
+			Autostart when user wants to connect
 			(S)FTP(S) for Mods
 
 	Voiceserver Modul:

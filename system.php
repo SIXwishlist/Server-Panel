@@ -81,16 +81,16 @@
 					//This shows the OS of the User connected to the Website!
 					
                   // if(strstr($_SERVER['HTTP_USER_AGENT'], "NT 10.0")){
-                    // $OS = "Windows 10";
+                    // $OS = "Windows 10/NT 10.0";
                   // }
                   // elseif(strstr($_SERVER['HTTP_USER_AGENT'], "NT 6.1")){
-                    // $OS = "Windows 7";
+                    // $OS = "Windows 7/NT 6.1";
                   // }
                   // elseif(strstr($_SERVER['HTTP_USER_AGENT'], "NT 6.2")){
-                    // $OS = "Windows 8";
+                    // $OS = "Windows 8/NT 6.2";
                   // }
                   // elseif (strstr($_SERVER['HTTP_USER_AGENT'], "NT 5.1")) {
-                    // $OS = "Windows XP";
+                    // $OS = "Windows XP/NT 5.1";
                   // }
                   // elseif (strstr($_SERVER['HTTP_USER_AGENT'], "Ubuntu")) {
                     // $OS = "Ubuntu";
