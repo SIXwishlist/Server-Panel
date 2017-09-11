@@ -4,10 +4,6 @@
 	Version: 0.01
 	Lang: PHP, Bash
 	Supported OS: Ubuntu
-	Tested on : Windows X
-	Done: 
-	Now Developing: (d)
-	In work: (x)
 
 ## Warning
 	Deleting Windows support!
